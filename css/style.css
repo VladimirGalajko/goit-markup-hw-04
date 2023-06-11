@@ -347,16 +347,15 @@ address {
   margin-bottom: 72px;
 }
 .customers {
-  padding-bottom: 120px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .customers-list {
   display: flex;
   gap: 24px;
-  justify-content: center;
 }
 .customers-item {
-  height: 80px;
+  height: 88px;
   width: calc((100% - 120px) / 6);
 }
 .customers-link {
