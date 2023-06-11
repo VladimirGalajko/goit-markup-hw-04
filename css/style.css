@@ -70,25 +70,28 @@ img {
   display: flex;
   align-items: center;
 }
-.header-link {
+/* .header-link {
   padding: 24px 0;
   color: #404bbf;
-}
-.header-link.link {
+} */
+.header-link {
+  padding: 24px 0;
+  color: #434455;
+  /* color: #404bbf; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primari-color);
+
   /* NEW */
   display: block;
   width: 100%;
   position: relative;
-  transition-property: color;
+  transition: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-link.link:is(:hover, :focus) {
+.header-link:is(:hover, :focus) {
   color: #404bbf;
 }
 span {
