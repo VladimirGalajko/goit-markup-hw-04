@@ -602,6 +602,7 @@ address {
 }
 .portfolio-text {
   position: absolute;
+  color: var(--text-color-f);
   top: 0;
   font-size: 16px;
   line-height: 1.5;
