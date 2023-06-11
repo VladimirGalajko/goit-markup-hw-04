@@ -113,6 +113,26 @@ span {
   padding: 24px 0;
   margin: 0;
 }
+.active-studio::after {
+  content: '';
+  position: absolute;
+  background-color: #404bbf;
+  border-radius: 2px;
+  height: 4px;
+  width: 100%;
+  bottom: -1px;
+  right: 0;
+}
+.active-portfolio::after {
+  content: '';
+  position: absolute;
+  background-color: #404bbf;
+  border-radius: 2px;
+  height: 4px;
+  width: 100%;
+  bottom: -1px;
+  right: 0;
+}
 
 .header-contacts {
   font-weight: 400;
