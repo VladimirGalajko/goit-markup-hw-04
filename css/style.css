@@ -346,16 +346,31 @@ address {
   color: var(--primari-color);
   margin-bottom: 72px;
 }
+.customers {
+  padding-bottom: 120px;
+  padding-bottom: 120px;
+}
 .customers-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
+  justify-content: center;
 }
 .customers-item {
-  width: 168px;
-  height: 88px;
+  height: 80px;
+  width: calc((100% - 120px) / 6);
+}
+.customers-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 24px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.svg-customers {
+  /* fill: currentColor; */
 }
 .footer {
   background-color: var(--primari-color);
