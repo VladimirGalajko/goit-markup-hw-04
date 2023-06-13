@@ -83,7 +83,7 @@ img {
   display: block;
   width: 100%;
   position: relative;
-  transition: color;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -110,7 +110,7 @@ span {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
   margin: 0;
 }
 .active-studio::after {
@@ -411,12 +411,12 @@ address {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-}
-.soc-link:is(:hover, :focus) {
-  background-color: #404bbf;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.soc-link:is(:hover, :focus) {
+  background-color: #404bbf;
 }
 .icon-svg {
   display: flex;
